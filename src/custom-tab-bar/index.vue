@@ -23,7 +23,7 @@
 <script setup lang="ts">
 import Taro from '@tarojs/taro';
 import { useTabberStore } from '@store/tabbar/index';
-import { computed } from 'vue';
+// import { computed, ref } from 'vue';
 const tabbarStore = useTabberStore();
 const color = '#000000';
 const selectedColor = '#DC143C';

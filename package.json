@@ -34,7 +34,12 @@
 		"gitHook": "lint-staged"
 	},
 	"lint-staged": {
-		"src/**/*.tsx": [
+		"src/**/*.ts": [
+			"eslint --ext .tsx,.ts,.vue src/",
+			"prettier --write",
+			"git add"
+		],
+		"src/**/*.vue": [
 			"eslint --ext .tsx,.ts,.vue src/",
 			"prettier --write",
 			"git add"
