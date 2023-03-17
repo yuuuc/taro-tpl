@@ -27,7 +27,6 @@ import { useTabberStore } from '@store/tabbar/index';
 const tabbarStore = useTabberStore();
 const color = '#000000';
 const selectedColor = '#DC143C';
-console.log('12356222');
 
 const list = [
 	{
