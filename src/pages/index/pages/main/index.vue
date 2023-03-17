@@ -37,12 +37,15 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import PyImage from '@component/py-image/index.vue';
 import Taro from '@tarojs/taro';
 import { Loading } from '@nutui/icons-vue-taro';
+import { request } from '@/http/http';
 import './index.scss';
 
 const page = ref('1');
+request({
+	url: '/test/getList',
+});
 
 const clickHandle = () => {
 	Taro.navigateTo({

@@ -13,5 +13,3 @@
 | mode      | 图片 mode 类型，参考 image 的 mode |                       | 'aspectFill' |
 | width     | 图片宽度                           | string                | '100%'       |
 | height    | 图片高度                           | string                | '100%'       |
-
-## 评论

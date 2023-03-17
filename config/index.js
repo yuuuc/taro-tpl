@@ -40,7 +40,7 @@ const config = {
 	alias: {
 		'@component': path.resolve(__dirname, '..', 'src/components'),
 		'@store': path.resolve(__dirname, '..', 'src/store'),
-		'@utils': path.resolve(__dirname, '..', 'src/utils'),
+		'@': path.resolve(__dirname, '..', 'src/'),
 	},
 	copy: {
 		patterns: [],

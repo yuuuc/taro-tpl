@@ -10,6 +10,6 @@ declare module '@vue/runtime-core' {
     NutButton: typeof import('@nutui/nutui-taro')['Button']
     NutSwiper: typeof import('@nutui/nutui-taro')['Swiper']
     NutSwiperItem: typeof import('@nutui/nutui-taro')['SwiperItem']
-    PyImage: typeof import('./src/components/py-image/index.vue')['default']
+    PyImage: typeof import('./src/components/common/py-image/index.vue')['default']
   }
 }

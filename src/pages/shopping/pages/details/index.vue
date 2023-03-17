@@ -26,17 +26,13 @@
 					alt="" />
 			</nut-swiper-item>
 		</nut-swiper>
-		<PyImage
-			:height="'100px'"
-			:width="'100px'"
-			:src="'https://t7.baidu.com/it/u=4198287529,2774471735&fm=193&f=GIF'"></PyImage>
+
 		<nut-button type="primary" @click="clickHandle">主要按钮</nut-button>
 	</view>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import PyImage from '@component/py-image/index.vue';
 import Taro from '@tarojs/taro';
 
 import './index.scss';
