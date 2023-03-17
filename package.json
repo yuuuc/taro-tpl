@@ -35,7 +35,7 @@
 	},
 	"lint-staged": {
 		"src/**/*.ts": [
-			"eslint --ext .tsx,.ts,.vue src/",
+			"eslint -c commit.eslint.json --ext .tsx,.ts,.vue src/",
 			"prettier --write",
 			"git add"
 		],
