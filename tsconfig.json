@@ -20,7 +20,8 @@
     "resolveJsonModule": true,
     "typeRoots": ["node_modules/@types"],
     "paths": {
-      "@component/*": ["./src/components/*"]
+      "@component/*": ["./src/components/*"],
+      "@store/*": ["./src/store/*"]
     }
   },
 

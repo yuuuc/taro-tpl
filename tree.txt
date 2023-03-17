@@ -1,0 +1,76 @@
+C:\Users\开发\Desktop\test2-taro
+├─.editorconfig
+├─.eslintrc
+├─.prettierrc
+├─babel.config.js
+├─components.d.ts
+├─package-lock.json
+├─package.json
+├─project.config.json
+├─project.tt.json
+├─README.md
+├─tsconfig.json
+├─types
+|   ├─global.d.ts
+|   └vue.d.ts
+├─src
+|  ├─app.config.ts
+|  ├─app.scss
+|  ├─app.ts
+|  ├─index.html
+|  ├─store
+|  |   ├─tabbar
+|  |   |   └index.ts
+|  ├─static
+|  |   ├─car-active.png
+|  |   ├─car.png
+|  |   ├─home-active.png
+|  |   ├─home.png
+|  |   ├─mine-active.png
+|  |   └mine.png
+|  ├─pages
+|  |   ├─shopping
+|  |   |    ├─pages
+|  |   |    |   ├─details
+|  |   |    |   |    ├─index.config.ts
+|  |   |    |   |    ├─index.scss
+|  |   |    |   |    └index.vue
+|  |   ├─index
+|  |   |   ├─pages
+|  |   |   |   ├─shoppingCar
+|  |   |   |   |      ├─index.config.ts
+|  |   |   |   |      ├─index.scss
+|  |   |   |   |      └index.vue
+|  |   |   |   ├─mine
+|  |   |   |   |  ├─index.config.ts
+|  |   |   |   |  ├─index.scss
+|  |   |   |   |  └index.vue
+|  |   |   |   ├─main
+|  |   |   |   |  ├─index.config.ts
+|  |   |   |   |  ├─index.scss
+|  |   |   |   |  └index.vue
+|  |   ├─activity
+|  |   |    ├─pages
+|  |   |    |   └index.ts
+|  |   ├─account
+|  |   |    ├─pages
+|  |   |    |   ├─addressManagement
+|  |   |    |   |         ├─index.config.ts
+|  |   |    |   |         ├─index.scss
+|  |   |    |   |         └index.vue
+|  ├─custom-tab-bar
+|  |       ├─index.config.ts
+|  |       └index.vue
+|  ├─components
+|  |     ├─py-image
+|  |     |    ├─errorImg.ts
+|  |     |    ├─index.md
+|  |     |    ├─index.scss
+|  |     |    ├─index.vue
+|  |     |    └type.ts
+|  ├─business-components
+|  |          └index.ts
+├─config
+|   ├─dev.js
+|   ├─index.js
+|   └prod.js

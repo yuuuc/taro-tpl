@@ -17,12 +17,15 @@ export default defineAppConfig({
     },
   ],
   window: {
+    navigationStyle: 'custom',
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
     navigationBarTitleText: 'WeChat',
     navigationBarTextStyle: 'black',
   },
   tabBar: {
+    custom: true,
+
     list: [
       {
         iconPath: 'static/home.png',
