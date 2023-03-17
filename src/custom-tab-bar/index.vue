@@ -27,6 +27,8 @@ import { useTabberStore } from '@store/tabbar/index';
 const tabbarStore = useTabberStore();
 const color = '#000000';
 const selectedColor = '#DC143C';
+console.log('123');
+
 const list = [
 	{
 		iconPath: '/static/home.png',
