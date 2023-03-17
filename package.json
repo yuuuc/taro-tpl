@@ -29,13 +29,13 @@
 		"dev:jd": "npm run build:jd -- --watch",
 		"dev:quickapp": "npm run build:quickapp -- --watch",
 		"treer": "treer -e ./tree.txt -i \"/node_modules|.git|.swc|dist/\"",
-		"eslint": "npx eslint --ext .ts,.vue src/",
+		"eslint": "npx eslint  --ext .ts,.vue src/",
 		"prepare": "husky install",
 		"gitHook": "lint-staged"
 	},
 	"lint-staged": {
 		"src/**/*.ts": [
-			"eslint -c commit.eslint.json --ext .tsx,.ts,.vue src/",
+			"eslint -c ./commit.eslint.json --ext .tsx,.ts,.vue src/",
 			"prettier --write",
 			"git add"
 		],
