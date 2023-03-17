@@ -1,9 +1,24 @@
 {
-	"extends": ["taro/vue3"],
+	"extends": [
+		"taro/vue3",
+		"plugin:vue/vue3-essential",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"plugins": ["vue", "@typescript-eslint"],
+	"parser": "vue-eslint-parser",
+	"parserOptions": {
+		"parser": "@typescript-eslint/parser",
+		"ecmaVersion": 2020,
+		"sourceType": "module"
+	},
 	"rules": {
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-var-requires": "off",
 		"vue/multi-word-component-names": 0,
-		"no-unused-vars": "error",
+		"no-unused-vars": "off",
+		"@typescript-eslint/no-unused-vars": "error",
+		"@typescript-eslint/no-empty-function": "off",
 		"no-alert": "error",
-		"no-console": "error"
+		"no-console": "warn"
 	}
 }

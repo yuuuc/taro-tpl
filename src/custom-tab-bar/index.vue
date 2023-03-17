@@ -69,6 +69,7 @@ function setSelected(index: number) {
 	display: flex;
 	padding-bottom: env(safe-area-inset-bottom);
 }
+
 .tab-bar-border {
 	background-color: rgba(0, 0, 0, 0.33);
 	position: absolute;
@@ -78,6 +79,7 @@ function setSelected(index: number) {
 	height: 1px;
 	transform: scaleY(0.5);
 }
+
 .tab-bar-item {
 	flex: 1;
 	text-align: center;
@@ -86,10 +88,12 @@ function setSelected(index: number) {
 	align-items: center;
 	flex-direction: column;
 }
+
 .tab-bar-item cover-image {
 	width: 54px;
 	height: 54px;
 }
+
 .tab-bar-item cover-view {
 	font-size: 20px;
 }
